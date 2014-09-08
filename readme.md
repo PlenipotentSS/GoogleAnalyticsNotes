@@ -92,30 +92,58 @@ Know the importance of genre, and how we interact with the customer and what we 
 
 
 
-##1.C.
+##1.C. Conversion & Conversion Attribution
 
 ###Macro Conversion (channel 1)
-	- transaction
+	- Completes an Action as a desired business goal
+	- E-Commerce: Transaction
 	- Sales Leads:
 		- A potential customer fills out and submits a lead form.
 	
 ###Micro Conversion (channel 2)
-	- indicator that a user is moving toward a macro conversion
+	- Better understand the journey of your customers
+	- Indicator that a user is moving toward a macro conversion
 	- Maximize Sales:
 		- Ecommerce conversion rate
 	
 ###Attribution is assigning credit to each conversion
-	- Last Click Attribution (all the data goes to the last conversion)
-		-used for years, because it was best we had)
-	- Linear Attribution ??
+	- Assigning Credit for a Conversion
+	- Understanding Attribution channels:
 	    - Assists
 	        - Interactions occurred before the actual attributions
-	        - which players assist to the end result
+	        - Which players assist to the end result
 	    - Goals
-		    -Some score goals
-		    -need to know which one is used
+		    - Some score goals
+		    - Need to know which one is used
+	- Channel Grouping Path (inside Google Analytics to understand common attributions)
+	- Common attribution mistakes:
+		- keywords under research may be misguided when tracking attributions
+		- Just because keywords are not highly visible in ads, etc, removing them may be harmful.
+		- Case Study:
+			- Winery (Winery wedding venues)
+				- Customer's search very broad, and then find information down the funnel
+				- Then when the submit the form, they just look up the name and go straight to the website
+		- Data-Driven doesn't tell the whole picture
+			- Need to be mindful of all attributions that may not be physically tracked (like different devices)
+				
+
+![](images/last-conversion.png)
+
+	- Last Click Attribution (all the data goes to the last conversion)
+		- Oldest Attribution 
+		- Using the last step as the major attribution to bring about the macro conversion
+		    
+![](images/first-conversion.png)		    
+
 	- First Click attribution
-		- assigning assisting attributions
+		- Determining if a channel is good for initiating sales. One big example is a youtube for sales videos that bring major product sales
+
+![](images/linear-attribution.png)		    		
+
+	- Linear Attribution
+		- Assigning assisting attributions
+		- This is very commonly explained with ads, social media and other assists that customers see over time to get them to a full macro-conversion
+		
 		
 
 General idea: better understand the journey and to determine what process is best.
