@@ -271,10 +271,48 @@ The above question was ambiguous, but more explained it is asking what are the v
 		- Data isn't wrong, it's just not accurate nor completely correct.
 	- Don't limit your session tracking to just one page, it is only relevant when tracking the session through the entire site. It's all relative, and not absolute on single page visitation). 
 	
-###2.B. Key Metrics * Dimensions
+##2.B. Key Metrics * Dimensions
 
-		
-	
+### Dimensions
+	- Characteristics of your users and sessions
+	- Types:
+	    - User Dimension
+		- Session 
+		- Interaction		
+
+### Metrics
+	- Quantitative measurements of users (sums, averages and ratios)
+	- Numbers!
+	- Types:
+		- Audience
+		- Behavior (averages of pages for engagement)
+		- Conversion (take valuable actions)
+	    - Visitors / Users
+		    - New
+		    - Returning
+		- Sessions or visits (timeout is default 30 minutes)
+			- Move up the default timeout if session timeout
+			- Videos should have hits by percent played
+			
+### Dimensions vs Metrics 
+	-(often displayed in a table)
+	- Websites (Case Study):
+		- Google Analytics will track interactions with page views
+		- Tracking watching a video (using events)
+		- Sessions expire without events and user activity
+
+![](images/measuring.visit.time.png)	
+
+	    - Can Calculate user duration:
+	    	- Time on page: landing on a time, from subtract next time view
+        - Bounce Rate
+	        - The percentage of sessions with only one user interaction
+	        - visit duration, and time on page = 0!
+	        - Why?
+	        	- wrong product, or can't navigate
+	        	- Blogs are okay
+	    - Using AJAX and Flash: ADD EVENTS!
+	- Larger list of events: support.google.com/analytics
 
 
 
