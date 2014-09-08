@@ -143,14 +143,135 @@ Know the importance of genre, and how we interact with the customer and what we 
 	- Linear Attribution
 		- Assigning assisting attributions
 		- This is very commonly explained with ads, social media and other assists that customers see over time to get them to a full macro-conversion
-		
+	
 		
 
-General idea: better understand the journey and to determine what process is best.
+General idea: better understand the journey and to determine what process is best. More atttributions at: https://support.google.com/analytics/answer/1665189
 		
 ![](images/attributions.png)
 		
 The above question was ambiguous, but more explained it is asking what are the values depending on each of the above attributions. 
 
 
-##1.D.
+##1.D. Measurement Plan
+
+### Channel the implementation for your needs
+	-Needed: 
+		- Time and effort, people, technology
+		- People:
+		    - Business Objectives/ Strategies
+		    - Understand what analytics does
+		    - How to implement Analytics
+		- What you measure:
+			- Define measurement plan
+			- Document technical infrastructure (responsive design, mobile, etc)
+			- Creating an implementation plan ( defining the code snippets, and tags required)
+			- Web developer / mobile developer team to implement these changes
+			- Maintain and refine to keep up with industry
+
+![](images/dig.strategies.png)		
+
+	- Measurement Model: (Avinash's model)
+		-Start with business objectives!
+		- Digital Strategies 
+		- 5 Steps of MEasurement plan:
+			- Document Business Objectives
+			- Identifiy strategies
+			- choose KPIs
+			- segmentations
+			- choose targets
+
+![](images/process.explained.png)				
+
+		- Case Study (outdoor equipment company) :  Blog, personal website, and live store
+			- Business objective: Help people enjoy the outdoors through innovative products and cultivate their love of the outdoors
+			- See below for full explanation:
+		        - The segments you choose can be the same or different for each of the different devices
+	            - Involve your IT Team to document technical insfrastructure
+		            - Business needs -> Implementation Plan
+		    	        - Query STring parameteres
+		    	        - String Redirects
+		    	        - Flash and Ajax events
+		    	        - multiple subdomains
+		    	        - Resopsonsive web design
+		        - Create your Implementation PLan
+			        - Standard dimensions: basic page tag & metrics
+			        - Business outcomes -> goals & e-commerce
+			        - clean, accurate data -> filters / settings
+			        - marketing channels -> campaign tracking & adwords
+			        - simplified reporting -> custom reports & dashboards
+		        - Robust implementation plan may need to be done in phases!
+	        
+![](images/analytics.infrastructure.png)
+
+		- Implementation plan:
+			- Define Measurement plan (business + tactics, segments, etc)
+			- Document Technical (IT Team)
+			- Implementation Plan (
+			- Implement ( developers )
+			- figuring out time constraints and possible phases.
+	
+###2.A. How Analytics Works
+
+![](images/google.works.png)
+
+##Collection:
+	- Javascript code on every page, collects information right away.
+		- browser, os, and gestures, as well as what brought them there
+	    - Hit interaction is each action
+	    - Large amount of data is just acquired from the snippet
+	- Case Studies:
+	    - Loyalty program for planes:
+	    	- Collect data for frequent flyer miles
+	    	- Tracking more specific than just GA
+	-Mobile:
+		- Each operating system is different
+		- tracking is based after activies instead of page views
+		- Mobile hist from offline devices can be stored and dispatched to Google each time it connects to the internet
+		- Knowledgeable developer is required
+		Case Studies:
+			- Hit on store location
+			- Purchase date, etc
+
+###Data Processing:
+	- turns your raw data into something more usable
+	- categorizes mobile/non mobile/etc
+	
+###Configuration
+	- add filters, etc
+	- Choosing different types of data to be pre-sorted
+	- Stored into the database after Data/Configuration
+	- Setup, then saved, and cannot be changed (??)
+
+### Reporting
+	- Uses all of the information stored and bring informative information to the table
+	
+
+###Breakdown (Case Study):
+	- Website (includes code)
+	- Code sends information to GA, where the data then sends through the cogs of GA.
+		- Flowing into the processing image
+	- Then flows into a database
+		- Pre calculated and stored
+		- Day Of Week, and then stored into the database with google's database dables
+	- Views then populate reports from the database
+		- Views can be populated for each property (inside google analytics)
+		- Views have different configurations also
+			- Content grooping, filters, and e-commerce	
+	        - minimum session timeout
+	        - change timeout for compaigns, etc.
+		- Used to see a specific subset of the data
+		- Views can have filters that also re-catagorize data, to make processed data to be the clearest informative reports as possible.
+	- Issues:
+		- if done wrong, you can create views that don't fill in gaps
+		-Case Study (If an entry goes to blog, then www, then back to blog.) 
+			- Accurate amount will track the blog visitation will be blog-www
+			- However, if just tracking blog it will be the entire visit (because www is lump summed without tracking)
+			- If we just see the session of www, then we measure the timestamp			 and it would show 0 or very little visit, even tho it is actually 140 seconds.
+		- Data isn't wrong, it's just not accurate nor completely correct.
+	- Don't limit your session tracking to just one page, it is only relevant when tracking the session through the entire site. It's all relative, and not absolute on single page visitation). 
+	
+###2.B. Key Metrics * Dimensions
+
+		
+	
