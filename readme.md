@@ -15,11 +15,11 @@
 		- Customers:
 			- Long time,we had a marketing funnel 
 			(awareness > acquisition > engagement > conversion > retention)
-			- the best analysis is through the customer!
+			- The best analysis is through the customer!
 			Successful, realistic, holistic information!
 		- Qualitative (What)
 			- Google analytics can take large amount of data through websites
-			- long time, but now has more value
+			- Long time, but now has more value
 			- Home appliances, mobile, game, computer, etc.
 			- Find behaviors that are unexpected or erroneous
 		- Qualitative (Why)
@@ -30,18 +30,18 @@
 		- Best of both worlds
 			- Qualitative data with Qualitative analysis and response to determine trends and behavior of your customers
 		- Measuring outcomes
-			- what are the important business outcomes, and what your goals are
-			- good to have a good strategy 
+			- What are the important business outcomes, and what your goals are
+			- Good to have a good strategy 
 			- 5 business objectives:
-				- e-commerce: sell products
+				- E-commerce: sell products
 				- Lead generation: contact information for sales prospects
-				- content publishing: ads shown to visitors
+				- Content publishing: ads shown to visitors
 				- Online info: help customers and respond quickly
 		- Behavioral data
 			- Macro Conversions
-				- main objective
+				- Main objective
 			- Micro Conversions
-				- smaller steps to the final goal
+				- Smaller steps to the final goal
 		
 
 ![](cycle.png)				
@@ -53,7 +53,6 @@
 		- Test: Different solutions to the problem
 			- takes things out of the decision making process
 		- Improve: Learn from your last cycle to make a better next cycle
-		
 	    - This flow should have qualitative and quantitative data to help you get to know your customers and their behaviors. 
 
 Know the importance of genre, and how we interact with the customer and what we do with it! 
