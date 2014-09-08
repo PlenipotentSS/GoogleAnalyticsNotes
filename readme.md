@@ -1,4 +1,4 @@
-##1.A.
+##1.A. Importance of Digital Analytics
 	Factors to bring the importance of analytics
 		- Internet
 		- Mobile
@@ -57,7 +57,7 @@
 
 Know the importance of genre, and how we interact with the customer and what we do with it! 
 
-##1.B.
+##1.B. Core Analysis Techniques
 
 
 ![](images/segmentation.png)
