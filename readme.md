@@ -4,12 +4,12 @@
 		- Mobile
 		- Cloud Computing
 
-![](digan.png)		
+![](images/digan.png)		
 
 	- Avinash Kaushik's definition
 		"Digital analytics is the analysis of qualitative and quantitative data from your business and the competition to drive a continual improvement of the online experience that your customers and potential customers have which translates to your desired outcomes (both online and offline)."
 
-![](funnel.png)		
+![](images/funnel.png)		
 
 	-Key Elements of Google Analytics:
 		- Customers:
@@ -44,7 +44,7 @@
 				- Smaller steps to the final goal
 		
 
-![](cycle.png)				
+![](images/cycle.png)				
 
 	- Continual improvement (Whole Process)
 		- Measure: all data needed to answer business questions
@@ -60,7 +60,7 @@ Know the importance of genre, and how we interact with the customer and what we 
 ##1.B.
 
 
-![](segmentation.png)
+![](images/segmentation.png)
 
 ###Segmentation
     - Aggregated data tells you trends, and more importantly the change of trends
@@ -120,7 +120,7 @@ Know the importance of genre, and how we interact with the customer and what we 
 
 General idea: better understand the journey and to determine what process is best.
 		
-![](attributions.png)
+![](images/attributions.png)
 		
 The above question was ambiguous, but more explained it is asking what are the values depending on each of the above attributions. 
 
