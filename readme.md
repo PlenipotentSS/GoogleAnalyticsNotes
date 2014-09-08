@@ -317,19 +317,146 @@ The above question was ambiguous, but more explained it is asking what are the v
 	- Larger list of events: support.google.com/analytics
 
 
+##3.A. Adding an Account
+	- start new account
+	- Choose mobile or web (download SDK if possible)
+	- Must have analytics snippet on every page. OR Tag manager is another process ( Analytics web property ID)
+		-> Tag Manager you need a data layer and GA
+		-> Tag manager then imports into the page for tag behaving
+	- Put the snippet of google analytics in the last area of the header
+	
+###Tag Manager vs Analytics
+	- Tag Manager is a way to put all kind of tags into your system.
+		- It is the box to track behavior
+		- Tag: Piece of code that goes into a site
+			- Managing them without having to go through the developer teams
+	- Analytics is a system to get data into your system
+		- It puts stuff in the default box and tracking the behavior
+	
+##3.B. Understanding your Account
+	- Structure of google account (Logical representation to represent data for your business)
+	-Each account
+		- Multiple Properties: stored and referenced together
+		- Each account should be related aspects of the same company
+		- Data is actually stored and tracked differently
+		- Roll-up Reporting (non-premium):
+			- To track multiple sites 
+			- Have to change the implementation
+			- Necessary for the question: (How many page views across multiple sites that you don't want to two places to look at)
+			- Only one tag!t
+	- Create multiple views for each property
+		- Views depending on region, etc for different business teams
+		- 3 views for each property
+			- Unfiltered
+			- Master View (to transform your view)
+			- Test view
+		- 2 more views for mobile:
+			- tablet only
+			- smartphone table
+	- Once data is processed, it cannot be reprocessed
+	- Once a view is deleted, it cannot be brought back
+	- new views start reporting data from the date of creation
+	- Develop your measurement plan before setting up any of your views and properties 
+
+##3.C. Filters
+	- Filters provide a flexible way of modifying the data in each view
+		- exclude, include, and change data 
+		- transform data for reporting each view
+		- Analyze data only by customers and not employees
+			- Filter all IP addresses from your business
+	- Clean up data
+		- removes case issues and transforms page views into lowercase, so the aggregate is more accurate
+	- Conditions:
+		1. Filter field (defaults are URI, etc).
+		2. Rules (matching or not matching patterns)
+		3. Choose the action (include, exclude, change)
+	- Types:
+		- Predefined
+		- Custom
+	-Case Study (excluding employees)
+		- Predfined filter,
+		- exclude URIs
+		- Equal to IP address
+	- Case Study (lowercase):
+		- Lowercase
+		- Filter field request URI
+
+![](images/filters.png)		
+
+	- Filters can also:
+		- Exclude, include, change, lowercase, uppercase
+		- Advanced: remove, replace and combine fields
+		- Difficult to add multiple filters to the same page
+		- Filter order matters! (one flows to the next)
+	- Stored in Filter Library!
+		- Plan first, and investigate business goals
+		- Put filters in your test view first!!!
 
 
+##3.D. Goals & E-Commerce
+	- Tracking Macro & Micro Conversions through goals
+	- Setting up goals is one of the most important!
+	- Review Key Performance Indicators from 5 step process
+	- Macro vs Micro
+		- Macro are the business goals for our customers
+		- Micro is the relationship building activities
+	- Conversions & Conversion rates
+		- Traffic sources report
+	
+###Goals:
+	- Goals for each view:
+	- Types
+		1. Destination Goal 
+			- Page you see after you finished your macro conversion
+			- Options:
+			Specify Name & Goal Details & Confirmation & value & Funnel
+				- Name & Details: 
+					for example any page that (begins with/equals to/regex) /thankyou creates destination goals		
+				- Confirmation testing
+				- Monitoring monetary value for each conversion (sales or custom value for each page)
+				- Funnel (checkout process)
+					- Screen/page & name for each step
+					- Multi-funnel conversion paths
+				- Also use E-commerce reports 
+					-To Use:
+						- ecommerce settings!
+						- analytics code on transaction complete page
+						- e-commerce code for transaction complete page
+		    - Goal Conversion vs E-commerce
+		    	- Goal conversion hits only once where e-commerce happens multiple times
+		    	- Case Study (Download $5 PDF & download five times)		    	
+		    		- Goal: : 1 Goal, $5
+		    		- E-commerce: 5 transactions, $25
+		    - Only add "goal value" for non-e-commerce goals, otherwise revenue will be double counted
+		2. Event Goal
+			- Download PDF or starting a video
+		3. Pages per visit
+			- Triggered when customer sees more or less 
+		4. Time on site
+			- exceeds or within the threshold
 
+##:3.E. Collecting information and Campaign Information
 
-
-
-
-
-
-
-
-
-
+## Choose Segments (Marketing Campaigns)
+	- Captures attributes/dimensions of where they came from
+		- Source: google.com, facebook, etc.
+		- Medium: Unpaid search (organic), Referral (from another site/non search), None (Directly to your site or clicking on a bookmark)
+			- Campaigns (Link Tagging)
+				- Social, Email
+			-News Letter (Campaign tags to identify where the user came from, email, etc.)			- Source: Julynews, 
+				- Medium: email, 
+				- Term
+				- Campaign: summersale
+				- Content: versions
+		- Use Campaigns to correctly understand where people are coming from
+			- Link Tagging:
+			    - Very good idea to contain an internal spreadsheet to groups campaign names/channels to keep data concise and informative
+		        - Use all traffic report to see Source / Medium
+		        - Campaigns are in the campaign report
+			        - Change primary dimension to add content in reporting
+			    - Magic for GA is putting parameters on your data.
+			    
+				
 
 
 
