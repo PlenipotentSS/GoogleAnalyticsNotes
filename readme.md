@@ -1,3 +1,5 @@
+#Google Digital Analytics Foundation Notes 
+
 ##1.A. Importance of Digital Analytics
 	Factors to bring the importance of analytics
 		- Internet
