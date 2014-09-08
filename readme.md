@@ -17,13 +17,18 @@
 			(awareness > acquisition > engagement > conversion > retention)
 			- the best analysis is through the customer!
 			Successful, realistic, holistic information!
-		- Qualitative
+		- Qualitative (What)
 			- Google analytics can take large amount of data through websites
 			- long time, but now has more value
 			- Home appliances, mobile, game, computer, etc.
-		- qualitative
-			- The Why!?
-				- 
+			- Find behaviors that are unexpected or erroneous
+		- Qualitative (Why)
+			- Make general assumptions to why behaviors occur
+			- Inferences to segmented data values
+				- Examine if this is specific and methodological
+			- Understanding people's motivations
+		- Best of both worlds
+			- Qualitative data with Qualitative analysis and response to determine trends and behavior of your customers
 		- Measuring outcomes
 			- what are the important business outcomes, and what your goals are
 			- good to have a good strategy 
@@ -55,17 +60,39 @@ Know the importance of genre, and how we interact with the customer and what we 
 
 ##1.B.
 
-###Context
-	-internal, from histroical data to represent benchmarks
-		- Using your site's historical monthly visits data to set a future monthly visits target.
-	-determine future goals
-	
+
+![](segmentation.png)
+
 ###Segmentation
-	- how to separate (isolate and analyze)
-		-days,etc.
+    - Aggregated data tells you trends, and more importantly the change of trends
+	- Identify similar customers, and understanding those trends
+    - Breaking up into segments allows you to understand trend changes, and prioritize in the aggregate
+    - Common segments (isolate and analyze):
+    	- days of the week and hours of the day
+    	- Devices / Operating System
+    	- Marketing Channels (email, twitter, search)
+    	- Geography
+    	- Customer characteristics (repeat or first-time)
 	- Segmentation can help you find the underlying causes of changes to your aggregate data.
 	- Segmentation allows you to isolate and analyze subsets of your data.
 	
+
+###Context
+	- Internally vs. Externally
+		- External:
+			- If booms are from company trends or trends within the industry
+		Internally:
+			- Finds Histroical data to represent benchmarks
+			- Using your site's historical monthly visits data to set a future monthly visits target.
+	- Using both to determine areas of goals, and importance of goals under the scope of the industry and company's interests.
+	- When plotting and understanding quantitative information, everything breaks down to context to understand the better qualitative values
+	
+
+
+
+
+
+
 ##1.C.
 
 ###Macro Conversion (channel 1)
@@ -89,11 +116,14 @@ Know the importance of genre, and how we interact with the customer and what we 
 		    -Some score goals
 		    -need to know which one is used
 	- First Click attribution
-		- assigning assisting attribusions
+		- assigning assisting attributions
+		
+
+General idea: better understand the journey and to determine what process is best.
 		
 ![](attributions.png)
 		
-General idea: better understand the journey and to determine what process is best.
+The above question was ambiguous, but more explained it is asking what are the values depending on each of the above attributions. 
 
 
 ##1.D.
