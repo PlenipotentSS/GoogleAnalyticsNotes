@@ -1,19 +1,3 @@
-<style>
-	*{
-		text-align: center;
-	}
-	code,
-	h1,
-	h2,
-	h3,
-	h4 {
-		text-align: left;
-	}
-</style>
-
-
-
-
 ##1.A.
 	Factors to bring the importance of analytics
 		- Internet
@@ -291,3 +275,36 @@ The above question was ambiguous, but more explained it is asking what are the v
 
 		
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- Stylizing for personal use ---->
+<style>
+	*{
+		text-align: center;
+	}
+	code,
+	h1,
+	h2,
+	h3,
+	h4 {
+		text-align: left;
+	}
+</style>
