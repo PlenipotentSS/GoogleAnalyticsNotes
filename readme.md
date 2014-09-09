@@ -639,9 +639,65 @@ The above question was ambiguous, but more explained it is asking what are the v
 	- Can Share Dashboards
 	- Keep in mind of your planning process when building your dashboards!
 
+##5.A. Goal flow
+	- View the path users take to navigate to your goals
+	- Analyze whether users are completing their goals
 
+### Interface Walkthrough
+	- See the paths for users & see issues/trends to improve the goal reach
+	- Large drop-offs with the process from the path to your goal
+	- Can infer on broken links as well as poor design structure
 
+##5.B. Ecommerce Reports
+	- Track sales activity and performance
+	- Product Performance Report
+	- Sales Performance Report
+	- Transaction Performance Report
+	- Necessary to setup ecommerce code to site
 
+### Interface Walkthrough
+	- Shows:
+		Quantity, Unique purchases, product revenue, average price
+	- Can sort by product category
+		- Know your audience and what they look for in purchases!
+	- Transactions
+		- Contains all your transaction IDS, and can see what products are purchased close to others
+		- Used for similar purchases
+
+##5.C. Multi-Channel Funnel Reports
+	- How your marketing channels work together to create sales and conversions
+	- How conversions are credited
+	- Difference between first, last and average assists
+	- Required:
+		- Setup goals
+		- Setup E-commerce code
+		
+### Interface Walkthrough
+	- By Default it uses last-interaction attribution models
+	- Will Automatically create funnels:
+		- Direct, Organic, Referral, Social, Paid, Email, etc.
+		- Should customize it further depending on your business model
+	- Assisteed Conversion Report
+		- Assist Metric shows sales and conversions 
+		- Also shows last click conversion and value
+	- Time Lag
+	    - You can see user's conversion paths
+		- Tells you how much your user interacts before returning to your site
+		
+##5.D. Attribution Reports
+	- Allow you to compare different attribution models
+	- Allows better budget allocation
+
+### Interface Walkthrough
+	- Types:
+	    - Google Mostly uses Last Click Attribution model
+	    - First Interaction Model is primarily used for awareness and branding
+	    - Linear Interaction Model is primarily used for awareness and contribution
+	- Model Comparison Tool:	
+		- Selecting multiple Interactions you can see the conversions and conversion values under each model.
+		- This hints that there are certain Channels are more valuable under different model schemes.
+		- Can help you figure out budget under different interaction models
+	- Need to experiment to find the best model
 <!--- Stylizing for personal use ---->
 <style>
 	*{
