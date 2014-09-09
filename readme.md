@@ -435,7 +435,7 @@ The above question was ambiguous, but more explained it is asking what are the v
 		4. Time on site
 			- exceeds or within the threshold
 
-##:3.E. Collecting information and Campaign Information
+##3.E. Collecting information and Campaign Information
 
 ## Choose Segments (Marketing Campaigns)
 	- Captures attributes/dimensions of where they came from
@@ -455,9 +455,189 @@ The above question was ambiguous, but more explained it is asking what are the v
 		        - Campaigns are in the campaign report
 			        - Change primary dimension to add content in reporting
 			    - Magic for GA is putting parameters on your data.
-			    
-				
 
+##4.A. Reporting 
+	- Reporting Interface (plot-able visits and table data)
+	    - Change the data range
+	    - View options:
+	        - Graph data & plot data
+	        - Percentage views in pie charts
+	        - Performance view is Bar graph based.
+	        - Comparisons: to view average and relations to the average.
+	        - Selecting Specific rows that can be plotted
+	    - Comment
+	- Filter and sort data
+		- Using filters you can see only the data that represents toward your goal
+	- Adjust which metrics appear in reports
+		- Categorize under multiple dimensions to breakdown data further 
+	    - Pivot Table 
+	- Go to the Interface and start playing around!
+	
+##4.B. Audience Reports
+
+###Understand Characterstics of Users
+	- Devices, and geographical
+	- Also understands user behaviors even between multiple events
+	- Understand user behavior and frequency
+	- Access Geographic Data
+	- View mobile
+	
+##Interface Walk through
+	- Location
+		- Represent possible untapped markets
+		- Add in average value, and see least regions of your market audience
+			- possible help others and focus on specific regions
+		- Identify regions you have a large bounce rate, and may need to be optimized for  language, etc for ads
+	- New Vs. Returning Report
+		- Compare ratios of your audience 
+		- Caleb's comments:	
+			- New Visitors is initiated only on cookie creation
+			- "Newish" is lost, and create a segment for count of visits
+				- Count of visits 1-4 and their distance from first visit is less than 2 days
+			- Customization is very important to get precise data
+		- Investigation can help determine frequency reward program
+	- Frequency Report
+		- Count Of Visits
+			- Helps determine issues like wrong audience or even helps explain how successful you are in your industry
+	- Engagement
+		- duration in seconds, and page views
+		- Contact information 
+	- Technology:
+		- Fine tune current versions and next versions
+			- Help determine developer cycles
+			- Bounce rate on specific devices may need to push for new development cycles
+		- Mobile Devices:
+			- Name, Brand, Service Provider, Input Selector, OS, Screen Resolution
+			- Gives developers on where to focus and build
+		- Custom Dimensions (demographic data, industry, etc)
+			- Powerful tools to understand your customers
+
+##4.C. Acquisition Reports
+	- How people find your website/app
+		-which channels and tactics to give the highest quality traffic
+	- All Traffic:
+		- referrals, direct, organic and the source
+		- google: organic vs cpc (cost per click)
+		- Did the traffic help you achieve your goal?
+			- See bounce rate
+			- Compare to site referral (example: youtube source results in customers may not find what they are looking for)
+			- Landing Page as a secondary dimension to see another layer of analysis of metrics
+	- Campaigns
+		- Traffic assigned to campaigns (auto tagging may help)
+		- Compare various marketing efforts side by side
+		- "Other" drop down to see ad content information
+	- Caleb's 2-cents
+		- Goal / Value (super metric) -> E-commerce
+		-> Per Session Goal Value (seen in relative comparison)
+		-> Per Session Goal Value is more informative because it tends to be relative to the actual goals
+			-> unlike goal conversion rate that assumes only 1 goal per page
+			-> Use this for information on how to plan out your marketing schedule
+		
+	
+
+##4.D. AdWords Reports
+
+###Google AdWords Performance
+	- Specific to AdWords
+		- How they impact Campaign performance
+		-RLI / Revenue Per Click
+	- View Adwords, Metrics, and impact of AdWords specific features
+	- Site View Metrics
+	- Revenue Metrics
+	
+###Interface Walkthrough
+	- Campaign and list AdWords groups
+	- Help you understand how usable your ads are in e-commerce
+		-> Then Ad Groups 
+		- Visits are # of visits
+		- Impressions are # ads displayed
+		- Clicks are # of clicks 
+		- Cost & CTR 
+		- ROI = (Revenue adwords visit - adwordscost) / adwordscost
+		- RPC (0) and ROI (-100%) means not completely setup correctly
+	- Setup correct date ranges!
+		- At least as long as your sale cycle
+	- Bid Adjustments report
+		-  Top left: campaign names
+	- Adwords Keywords
+		- Broken up by keywords in your search campaigns
+		- which ones end up meeting goal completions or which ones have large bounce rates
+	- Matched Search Queries
+		- See which keywords were used to get your site
+		- Can revaluate rebidding schedule, and formulate days and times to be more competitive
+	- Destination URLS
+	- Placements
+		- Show you were the domains and specific urls where your ads are placed
+	- Keywords display how your keywords are used and their performance clicks
+	
+###Question:
+	- Automatic vs Managed displayed
+		- Display ads on websites
+		Managed
+		    - Tell you your budget
+		    - Adjust
+		Automatic:
+			- Send in your information, and google will populate your target sites
+			
+		
+ 
+##4.E. Behavior Reports
+	- How users interact with your site/app
+	- Valuable data on how users get to you from search engines
+	- Identify popular content
+	- analyze how users move on your site
+	- analyze site search data
+
+###Interface Walkthrough
+	- Pi Chart view to see what pages are used most
+	- Looking for high bounce rates to see what pages need to be redesigned 
+	- High Exit Pages on landing pages could be problematic
+	- Top Events Report
+	    - Ajax, flash, etc need to be tracked with events
+	    - Video or Downlaods could be good categories
+	    - Video: Play & Video: Stop for video interaction
+	    - Can set a value for each event
+	    	- Value could be load time for each video
+	- Search Terms
+		- Analyze what people search for to determine hidden content on your site
+	    - Refined search as secondary dimension to see what people had to refine their search to find your site
+	    - Time after search
+	    	- Amount of time customers are on the site after they seearched
+	- Behavior Flow Report
+	    - Clicking on a page you can see how effective that page is used as a launch page
+		- Blue is Event, Green is typical behavior
+		
+##4.F. Custom Reports & Dashboards
+
+###Custom Reports
+	- Includes all the data you need
+	- One simple report for all the information that is specific to each purpose
+	- How To create
+	- how to create a dashboard
+	- hot to share
+				
+###Interface Walkthrough
+    - Name
+    - Type
+	    - Explorer type shows with table with graph on type
+	    - Flat table is only related to table information
+	    - Map overlay is for geolocation
+	- Metrics
+		- Visits, Goals, etc
+	- Dimension Drilldowns (some cannot be paired)
+		- Primary characteristics
+	- Filters (optional)
+		- Include/Exclude and comparison for the hash
+	- Profiles (optional)
+		- Add them to other shared profiles
+	
+###Dashboard
+	- Represent multiple elements of your projects as widgets
+	- Add new widgets to give you front page information
+		- Widgets have customization options for metrics, scale, etc.
+		- Can share widgets
+	- Can Share Dashboards
+	- Keep in mind of your planning process when building your dashboards!
 
 
 
